@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "koala",
+    name: "Koala",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v16),
@@ -12,7 +12,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "koala",
+            name: "Koala",
             targets: ["Koala"]),
     ],
     dependencies: [
